@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+.homeTeamName, .awayTeamName, .score {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
+    padding:10px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.homeTeamName {
+    width: 40%;
+    display:flex;
+    justify-content: right;
+}
+
+.score {
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    color: #B00000;
+}
+
+.awayTeamName {
+    width: 40%;
+    display:flex;
+    justify-content: left;
+}
+
+.match_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.teams_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.pagination_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination a {
+    font-size: 30px;
+    padding:5px 15px;
+    margin: 10px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color:#000;
+    cursor: pointer;
+}
+
+.pagination a:hover {
+    background-color: #DADADA;
+}
+
+.pagination a:active {
+    border: 1px solid #000;
+}
+
+.active a {
+    background-color: #DADADA;
+}
+
+.disabled a {
+    color: #FFF;
+    background-color: #DADADA
+}

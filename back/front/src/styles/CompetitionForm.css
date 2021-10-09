@@ -1,0 +1,87 @@
+* {
+    font-size: 20px;
+}
+
+.creationForm {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin: 5px 0;
+}
+
+input {
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px 0;
+    padding: 5px;
+    width: 70%;
+}
+
+input:focus { /* When you click on the field... */
+    border-color: #6EA2DE;
+    box-shadow: 0px 0px 10px #6EA2DE;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.open_button {
+    background: linear-gradient(45deg, #FFFED4, #FFFF6A);
+    width: 100%;
+}
+
+.submit_button {
+    background: linear-gradient(45deg, #D4D6FF, #6A71FF);
+}
+
+button:hover {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #000;
+    text-decoration: underline;
+}
+
+button:active {
+    transition: all 0.1s ease-in-out;
+    color: #FFF;
+}
+
+.input_container {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message_container {
+    padding: 10px;
+    border: 1px solid #FF0000;
+    border-radius: 5px;
+    width: 48%;
+    height: 100%;
+}
+
+.formPlusMessageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star {
+    color: #FF0000;
+}
+
+.createHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
